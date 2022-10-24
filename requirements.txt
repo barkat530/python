@@ -8,7 +8,6 @@ webdriver-manager
 opencv-python
 Pillow
 PyAutoGUI
-winshell
 pywin32
 pytesseract
 anticaptchaofficial
