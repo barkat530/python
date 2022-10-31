@@ -107,7 +107,7 @@ df.to_csv('count1.csv', index=False)
 import gspread
 import gspread_dataframe as gd
 
-gc = gspread.service_account(filename=r'D:\Dropbox\Python\l4l\fulker.json')
+gc = gspread.service_account(filename=r'./app/app.json')
 sht1 = gc.open_by_url('https://docs.google.com/spreadsheets/d/1IAPJK6eWsEx4C5JW6irn8yi_AVFgs8L1fbGjzfKEiUw/edit#gid=0').sheet1
 
 df = pd.DataFrame(total_list)
